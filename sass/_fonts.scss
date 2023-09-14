@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+
+:root {
+    --raleway-font: 'Raleway', sans-serif;
+    --lato-font: 'Lato', sans-serif;
+}

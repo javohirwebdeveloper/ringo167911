@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: var(--raleway-font);
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import './fonts';
+@import './variables';
+@import './mixins';
+@import './all-blocks/header';
+@import './all-blocks/direct';
+@import './all-blocks/covered';
+@import './all-blocks/premises';
+@import './all-blocks/advantages';
+@import './all-blocks/project';
